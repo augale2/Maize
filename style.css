@@ -9,10 +9,9 @@ body {
     font-family: Arial, sans-serif;
 }
 a {
-    color: #10300A;
     text-decoration: none;
   }
 
   a:visited {
-    color: #10300A; /* Keeps the same color as the default */
+    color: inherit;
   }
