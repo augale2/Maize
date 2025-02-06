@@ -69,9 +69,31 @@
     <nav id="mobile-menu" class="md:hidden bg-green-800 text-white hidden">
         <ul class="space-y-4 p-4">
             <li><a href="/" class="hover:underline text-white">Home</a></li>
-            <li><a href="#" class="hover:underline text-white">About MGCSC</a></li>
-            <li><a href="#" class="hover:underline text-white">Our Collection</a></li>
-            <li><a href="#" class="hover:underline text-white">Request Stocks</a></li>
+            <li><button class="text-white w-full text-left" onclick="toggleDropdown('about-dropdown')">About MGCSC</button>
+                <ul id="about-dropdown" class="hidden bg-green-700 text-white">
+                    <li><a href="#" class="block px-4 py-2 hover:bg-green-600">General Information</a></li>
+                    <li><a href="#" class="block px-4 py-2 hover:bg-green-600">MGCSC Annual Report</a></li>
+                    <li><a href="#" class="block px-4 py-2 hover:bg-green-600">Maize COOP Staff</a></li>
+                </ul>
+            </li>
+
+            <li><button class="text-white w-full text-left" onclick="toggleDropdown('collection-dropdown')">Our Collection</button>
+                <ul id="collection-dropdown" class="hidden bg-green-700 text-white">
+                    <li><a href="#" class="block px-4 py-2 hover:bg-green-600">About Our Collection</a></li>
+                    <li><a href="https://www.maizegdb.org/stock_catalog" class="block px-4 py-2 hover:bg-green-600">Stock Catalog (at MaizeGDB)</a></li>
+                    <li><a href="https://www.maizegdb.org/data_center/stock#simple_search" class="block px-4 py-2 hover:bg-green-600">Simple Stock Query Form (at MaizeGDB)</a></li>
+                    <li><a href="https://www.maizegdb.org/data_center/stock#advanced_search" class="block px-4 py-2 hover:bg-green-600">Advanced Stock Query (at MaizeGDB)</a></li>
+                </ul>
+            </li>
+
+            <li><button class="text-white w-full text-left" onclick="toggleDropdown('request-dropdown')">Request Stocks</button>
+                <ul id="request-dropdown" class="hidden bg-green-700 text-white">
+                    <li><a href="https://maizegdb.org/ordering/coop_order" class="block px-4 py-2 hover:bg-green-600">Request Form</a></li>
+                    <li><a href="#" class="block px-4 py-2 hover:bg-green-600">Contact Us</a></li>
+                    <li><a href="#" class="block px-4 py-2 hover:bg-green-600">E-mail Us</a></li>
+                    <li><a href="#" class="block px-4 py-2 hover:bg-green-600">Related Websites</a></li>
+                </ul>
+            </li>
         </ul>
     </nav>
 </header>
@@ -84,6 +106,13 @@
     hamburger.addEventListener("click", () => {
         mobileMenu.classList.toggle("hidden");
     });
+
+    // Function to toggle dropdown visibility on mobile
+    function toggleDropdown(id) {
+        const dropdown = document.getElementById(id);
+        dropdown.classList.toggle("hidden");
+    }
 </script>
+
 </body>
 </html>
