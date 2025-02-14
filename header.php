@@ -25,9 +25,9 @@
                 <li class="relative group">
                     <a href="#" class="hover:underline">About MGCSC</a>
                     <ul class="absolute left-0 bg-green-700 text-white w-48 shadow-lg rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-opacity duration-300">
-                        <li><a href="#" class="block px-4 py-2 hover:bg-green-600">General Information</a></li>
+                        <li><a href="/about" class="block px-4 py-2 hover:bg-green-600">General Information</a></li>
                         <li><a href="#" class="block px-4 py-2 hover:bg-green-600">MGCSC Annual Report</a></li>
-                        <li><a href="#" class="block px-4 py-2 hover:bg-green-600">Maize COOP Staff</a></li>
+                        <li><a href="/staff" class="block px-4 py-2 hover:bg-green-600">Maize COOP Staff</a></li>
                     </ul>
                 </li>
 
@@ -35,7 +35,7 @@
                 <li class="relative group">
                     <a href="#" class="hover:underline">Our Collection</a>
                     <ul class="absolute left-0 bg-green-700 text-white w-56 shadow-lg rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-opacity duration-300">
-                        <li><a href="#" class="block px-4 py-2 hover:bg-green-600">About Our Collection</a></li>
+                        <li><a href="/about-our-collection" class="block px-4 py-2 hover:bg-green-600">About Our Collection</a></li>
                         <li><a href="https://www.maizegdb.org/stock_catalog" class="block px-4 py-2 hover:bg-green-600">Stock Catalog (at MaizeGDB)</a></li>
                         <li><a href="https://www.maizegdb.org/data_center/stock#simple_search" class="block px-4 py-2 hover:bg-green-600">Simple Stock Query Form (at MaizeGDB)</a></li>
                         <li><a href="https://www.maizegdb.org/data_center/stock#advanced_search" class="block px-4 py-2 hover:bg-green-600">Advanced Stock Query (at MaizeGDB)</a></li>
@@ -47,9 +47,9 @@
                     <a href="#" class="hover:underline">Request Stocks</a>
                     <ul class="absolute right-0 bg-green-700 text-white w-56 shadow-lg rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-opacity duration-300">
                         <li><a href="https://maizegdb.org/ordering/coop_order" class="block px-4 py-2 hover:bg-green-600">Request Form</a></li>
-                        <li><a href="#" class="block px-4 py-2 hover:bg-green-600">Contact Us</a></li>
+                        <li><a href="/contact-us" class="block px-4 py-2 hover:bg-green-600">Contact Us</a></li>
                         <li><a href="#" class="block px-4 py-2 hover:bg-green-600">E-mail Us</a></li>
-                        <li><a href="#" class="block px-4 py-2 hover:bg-green-600">Related Websites</a></li>
+                        <li><a href="/related-websites" class="block px-4 py-2 hover:bg-green-600">Related Websites</a></li>
                     </ul>
                 </li>
             </ul>
