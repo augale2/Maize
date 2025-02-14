@@ -7,16 +7,16 @@ get_header();
     <div class="relative flex min-h-screen w-full overflow-hidden">
         <!-- Image Container -->
         <div class="flex items-center w-full justify-between">
-            <!-- Left Image -->
-            <div class="w-1/3">
-                <img src="https://uillinoisedu-my.sharepoint.com/:i:/r/personal/jlgustin_illinois_edu/Documents/NewMaizeWebsite/X13L_kernels_R1mb_1.jpg?csf=1&web=1&e=WivF1p"
-                    alt="Left Image" class="w-full h-auto object-contain">
+            <!-- Left Image (Left Half Visible, Right Half Hidden) -->
+            <div class="w-1/3 overflow-hidden relative">
+                <img src="https://uillinoisedu-my.sharepoint.com/:i:/r/personal/jlgustin_illinois_edu/Documents/NewMaizeWebsite/107B_Kernels_P1rr_1.jpg?csf=1&web=1&e=FyfCBf"
+                    alt="Left Image" class="w-[200%] h-auto object-cover -translate-x-1/4">
             </div>
 
-            <!-- Right Image -->
-            <div class="w-1/3">
+            <!-- Right Image (Right Half Visible, Left Half Hidden) -->
+            <div class="w-1/3 overflow-hidden relative">
                 <img src="https://uillinoisedu-my.sharepoint.com/:i:/r/personal/jlgustin_illinois_edu/Documents/NewMaizeWebsite/107F_Kernels_P1vv_1.jpg?csf=1&web=1&e=i3EdJf"
-                    alt="Right Image" class="w-full h-auto object-contain">
+                    alt="Right Image" class="w-[200%] h-auto object-cover translate-x-1/4">
             </div>
         </div>
 
