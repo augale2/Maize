@@ -7,13 +7,11 @@ get_header();
     <div class="relative flex min-h-screen w-full overflow-hidden">
         <!-- Image Container -->
         <div class="flex items-center w-full justify-between">
-            <!-- Left Image (Left Half Visible, Right Half Hidden) -->
             <div class="w-1/3 overflow-hidden relative">
                 <img src="https://maizecoopsc.web.illinois.edu/wp-content/uploads/2025/02/107B_Kernels_P1rr_1.jpg"
                     alt="Left Image" class="w-[200%] h-auto object-cover -translate-x-1/4">
             </div>
 
-            <!-- Right Image (Right Half Visible, Left Half Hidden) -->
             <div class="w-1/3 overflow-hidden relative">
                 <img src="https://maizecoopsc.web.illinois.edu/wp-content/uploads/2025/02/107B_Kernels_P1rr_1.jpg"
                     alt="Right Image" class="w-[200%] h-auto object-cover translate-x-1/4">
