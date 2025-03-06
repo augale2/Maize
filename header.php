@@ -33,7 +33,7 @@
                     </a>
                     <ul class="absolute left-0 mt-1 w-48 bg-white shadow-lg rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-opacity duration-300 z-50">
                         <li><a href="/about" class="block px-4 py-2 hover:bg-green-100 <?php echo is_page('about') ? 'border-b-4 border-green-500 font-semibold' : ''; ?>">General Information</a></li>
-                        <li><a href="#" class="block px-4 py-2 hover:bg-green-100">MGCSC Annual Report</a></li>
+                        <li><a href="/annual-report-2" class="block px-4 py-2 hover:bg-green-100">MGCSC Annual Report</a></li>
                         <li><a href="/staff" class="block px-4 py-2 hover:bg-green-100 <?php echo is_page('staff') ? 'border-b-4 border-green-500 font-semibold' : ''; ?>">Maize COOP Staff</a></li>
                     </ul>
                 </li>
@@ -76,7 +76,7 @@
                 <button class="w-full text-left hover:text-green-600" onclick="toggleDropdown('mobile-about')">About MGCSC</button>
                 <ul id="mobile-about" class="hidden pl-4">
                     <li><a href="/about" class="block px-4 py-2 hover:bg-green-100 <?php echo is_page('about') ? 'border-b-4 border-green-500 font-semibold' : ''; ?>">General Information</a></li>
-                    <li><a href="#" class="block px-4 py-2 hover:bg-green-100">MGCSC Annual Report</a></li>
+                    <li><a href="/annual-report-2" class="block px-4 py-2 hover:bg-green-100">MGCSC Annual Report</a></li>
                     <li><a href="/staff" class="block px-4 py-2 hover:bg-green-100 <?php echo is_page('staff') ? 'border-b-4 border-green-500 font-semibold' : ''; ?>">Maize COOP Staff</a></li>
                 </ul>
             </li>
