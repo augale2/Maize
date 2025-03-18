@@ -27,8 +27,8 @@ get_header();
         <p class="text-center text-gray-700 mt-6">We mourn the loss of our colleague and friend <a href="/philip-stinard-2" class="text-red-600 font-semibold hover:underline">Philip Stinard</a>.</p>
 
         <div class="border-t border-gray-300 mt-6 pt-4 text-center">
-            <h3 class="text-green-700 font-semibold italic text-lg">Maize Genetics Cooperation - Newsletter</h3>
-            <p class="mt-2"> <a href="#" class="text-green-700 font-semibold hover:underline">Jim Birchler</a> and <a href="#" class="text-green-700 font-semibold hover:underline">Mary Schaeffer</a>, co-secretaries.</p>
+            <h3 class="text-green-700 font-semibold italic text-lg"><a href="https://www.maizegdb.org/mnl" target="_blank">Maize Genetics Cooperation - Newsletter</a></h3>
+            
         </div>
         
     </div>
