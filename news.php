@@ -1,9 +1,9 @@
 <div class="w-full md:w-1/3 p-4 bg-white shadow-lg rounded-md border border-gray-200">
-    <h2 class="text-xl font-semibold border-b-2 border-green-600 pb-2">Breaking News</h2>
+    <h2 class="text-xl font-semibold border-b-2 border-[#14b02a] pb-2">Breaking News</h2>
     <div class="space-y-4 mt-4">
         <!-- News Item 1 -->
         <div class="border-b pb-3">
-            <a href="https://www.micropublication.org/journals/biology/micropub-biology-001504" class="text-green-600 font-semibold hover:underline">
+            <a href="https://www.micropublication.org/journals/biology/micropub-biology-001504" class="text-[#14b02a] font-semibold hover:underline">
                 Allelism of Uncharacterized Dwarf Mutants in Maize
             </a>
             <p class="text-sm text-gray-600">Feb 7, 2025</p>
@@ -12,7 +12,7 @@
 
         <!-- News Item 2 -->
         <div class="border-b pb-3">
-            <a href="https://example.com/news-2" class="text-green-600 font-semibold hover:underline">
+            <a href="https://example.com/news-2" class="text-[#14b02a] font-semibold hover:underline">
                 Sample News 1
             </a>
             <p class="text-sm text-gray-600">Jan 2, 2025</p>
@@ -21,7 +21,7 @@
 
         <!-- News Item 3 -->
         <div class="border-b pb-3">
-            <a href="https://example.com/news-3" class="text-green-600 font-semibold hover:underline">
+            <a href="https://example.com/news-3" class="text-[#14b02a] font-semibold hover:underline">
                 Sample News 2
             </a>
             <p class="text-sm text-gray-600">Dec 20, 2024</p>
@@ -30,7 +30,7 @@
 
         <!-- News Item 4 -->
         <div class="border-b pb-3">
-            <a href="https://example.com/news-4" class="text-green-600 font-semibold hover:underline">
+            <a href="https://example.com/news-4" class="text-[#14b02a] font-semibold hover:underline">
                 Sample news 3
             </a>
             <p class="text-sm text-gray-600">Dec 10, 2024</p>
@@ -39,7 +39,7 @@
 
         <!-- News Item 5 -->
         <div>
-            <a href="https://example.com/news-5" class="text-green-600 font-semibold hover:underline">
+            <a href="https://example.com/news-5" class="text-[#14b02a] font-semibold hover:underline">
                 Sample news 4
             </a>
             <p class="text-sm text-gray-600">Nov 30, 2024</p>
