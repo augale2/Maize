@@ -21,7 +21,7 @@ get_header();
             >
             <!-- Name & Title -->
             <h2 class="text-xl font-semibold mb-1">Marty Sachs</h2>
-            <p class="text-gray-600 mb-3">Director</p>
+            <p class="text-base text-gray-600 mb-3">Director</p>
             
             <!-- Read More Button -->
             <a
@@ -34,7 +34,7 @@ get_header();
             <!-- Optional Quote/Description -->
             <p class="text-sm text-gray-500 mt-3 italic">
                 Also, one of the data curators for 
-                <a href="#" class="text-red-600 hover:underline">MaizeGDB</a>.
+                <a href="#" class="hover:underline">MaizeGDB</a>.
             </p>
         </div>
 
@@ -46,7 +46,7 @@ get_header();
                 class="w-32 h-32 object-cover rounded-full mb-4"
             >
             <h2 class="text-xl font-semibold mb-1">Jeff Gustin</h2>
-            <p class="text-gray-600 mb-3">Curator</p>
+            <p class="text-base text-gray-600 mb-3">Curator</p>
             <a
                 href="/jeff-gustin-2"
                 class="inline-block bg-[#14b02a] text-white visited:text-white px-4 py-2 rounded hover:bg-green-700 transition"
@@ -62,9 +62,24 @@ get_header();
                 class="w-32 h-32 object-cover rounded-full mb-4"
             >
             <h2 class="text-xl font-semibold mb-1">Shane Zimmerman</h2>
-            <p class="text-gray-600 mb-3">Ag. Res. Tech.</p>
+            <p class="text-base text-gray-600 mb-3">Ag. Res. Tech.</p>
             <a
                 href="/shane-zimmerman-2"
+                class="inline-block bg-[#14b02a] text-white visited:text-white px-4 py-2 rounded hover:bg-green-700 transition"
+            >
+                Read More
+            </a>
+        </div>
+        <div class="bg-white rounded-lg shadow p-6 flex flex-col items-center text-center">
+            <img
+                src="https://maizecoopsc.web.illinois.edu/wp-content/uploads/2024/04/Josh1.png"
+                alt="Joshua P. Tolbert"
+                class="w-32 h-32 object-cover rounded-full mb-4"
+            >
+            <h2 class="text-xl font-semibold mb-1">Joshua P. Tolbert</h2>
+            <p class="text-base text-gray-600 mb-3">IT Specialist</p>
+            <a
+                href="/joshua-p-tolbert-2"
                 class="inline-block bg-[#14b02a] text-white visited:text-white px-4 py-2 rounded hover:bg-green-700 transition"
             >
                 Read More
@@ -74,7 +89,7 @@ get_header();
 
     <!-- Optional Memorial / Additional Note -->
     <div class="text-center mt-8">
-        <p class="text-gray-700">
+        <p class="text-xl text-gray-700">
             We mourn the loss of our colleague and friend
             <a href="/philip-stinard-2" class="font-semibold hover:underline">
                 Philip Stinard
@@ -84,7 +99,7 @@ get_header();
 
     <!-- Newsletter or Other Link Section -->
     <div class="border-t border-gray-300 mt-6 pt-4 text-center">
-        <h3 class="text-[#14b02a] font-semibold italic text-lg">
+        <h3 class="text-lg text-[#14b02a] font-semibold italic">
             <a href="https://www.maizegdb.org/mnl" target="_blank">
                 Maize Genetics Cooperation - Newsletter
             </a>
