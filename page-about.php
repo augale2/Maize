@@ -3,10 +3,22 @@
 get_header();
 ?>
 
-<main class="mx-auto p-4 sm:p-6 lg:p-8 max-w-7xl">
-    <div class="space-y-12">
+<main>
+    <section
+        class="relative w-full h-64 bg-center bg-cover bg-no-repeat flex items-center justify-center mb-6 rounded-lg"
+        style="background-image: url('https://maizecoopsc.web.illinois.edu/wp-content/uploads/2025/04/Kernel_Banner_page-0001-scaled.jpg');"
+    >
+        <!-- Optional semi-transparent overlay -->
+        <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+
+        <!-- Text overlay -->
+        <div class="relative z-10 text-center text-white">
+            <h1 class="text-4xl font-bold">Maize COOP Information</h1>
+        </div>
+    </section>
+    <div class="space-y-12 mx-auto p-4 sm:p-6 lg:p-8 max-w-7xl">
         <section class="space-y-6">
-            <h1 class="text-4xl text-gray-800 font-bold">Maize COOP Information</h1>
+            <!-- <h1 class="text-4xl text-gray-800 font-bold">Maize COOP Information</h1> -->
             <div class="flex flex-col md:flex-row md:space-x-6 items-center">
                 <img src="https://maizecoopsc.web.illinois.edu/wp-content/uploads/2024/04/m-transpos-3.jpg" alt="Maize COOP" class="w-full md:w-1/3 rounded-lg shadow-md">
                 <p class="mt-4 text-lg text-gray-600 md:mt-0">
