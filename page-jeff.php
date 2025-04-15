@@ -5,7 +5,7 @@ get_header();
 
 <main class="mx-auto p-4 sm:p-6 lg:p-8">
     <!-- Banner Section -->
-    <section class="relative w-full h-64 bg-gray-800 flex items-center justify-center text-white text-center rounded-lg">
+    <section class="relative w-full h-22 bg-gray-800 flex items-center justify-center text-white text-center rounded-lg">
         <div>
             <h1 class="text-4xl font-semibold italic">Jeff Gustin</h1>
             <p class="text-lg mt-2"></p>
@@ -14,8 +14,8 @@ get_header();
 
     <!-- Profile Picture & Basic Info -->
     <section class="flex flex-col items-center text-center">
-        <img src="https://maizecoopsc.web.illinois.edu/wp-content/uploads/2024/04/jeff-1.jpg" alt="Profile Picture" class="rounded-lg shadow-lg border-4 border-white h-40 w-40 object-cover">
-        <h2 class="text-2xl font-semibold mt-4">RES AFFL</h2>
+        <img src="https://maizecoopsc.web.illinois.edu/wp-content/uploads/2024/04/jeff-1.jpg" alt="Profile Picture" class="rounded-lg shadow-lg border-4 border-white h-80 w-80 object-cover">
+        <h2 class="text-2xl font-semibold mt-4">Curator</h2>
         <p class="text-gray-600 mt-2">Email: <a href="jlgustin@illinois.edu" class="text-blue-500 hover:underline">jlgustin@illinois.edu</a></p>
         
         <!-- Social Media Links -->
@@ -30,7 +30,7 @@ get_header();
     <section class="bg-white p-6 shadow-md rounded-lg">
         <h2 class="text-3xl font-semibold">Background</h2>
         <ul class="list-disc list-inside mt-4 text-gray-700 space-y-2">
-            <li>Postdoc and Research Scientist at the University of Florida 2008-2020</li>
+            <li>Postdoc and Research Faculty at the University of Florida 2008-2020</li>
             <li>Ph.D. Purdue University 2008</li>
             <li>BA Pennsylvania State University at Erie (The Behrend College) 2001</li>
         </ul>
