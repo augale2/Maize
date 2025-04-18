@@ -46,9 +46,9 @@
                     </a>
                     <ul class="absolute right-0 mt-1 w-56 bg-white shadow-lg rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-opacity duration-300 z-50">
                         <li><a href="/about-our-collection" class="block px-4 py-2 hover:bg-[#14b02a] <?php echo is_page('about-our-collection') ? 'border-b-4 border-[#14b02a] font-semibold' : ''; ?>">About Our Collection</a></li>
-                        <li><a href="https://www.maizegdb.org/stock_catalog" class="block px-4 py-2 hover:bg-[#14b02a]">Stock Catalog</a></li>
-                        <li><a href="https://www.maizegdb.org/data_center/stock#simple_search" class="block px-4 py-2 hover:bg-[#14b02a]">Simple Stock Query</a></li>
-                        <li><a href="https://www.maizegdb.org/data_center/stock#advanced_search" class="block px-4 py-2 hover:bg-[#14b02a]">Advanced Stock Query</a></li>
+                        <li><a href="https://www.maizegdb.org/stock_catalog" target="_blank" class="block px-4 py-2 hover:bg-[#14b02a]">Stock Catalog</a></li>
+                        <li><a href="https://www.maizegdb.org/data_center/stock#simple_search" target="_blank" class="block px-4 py-2 hover:bg-[#14b02a]">Simple Stock Query</a></li>
+                        <li><a href="https://www.maizegdb.org/data_center/stock#advanced_search" target="_blank" class="block px-4 py-2 hover:bg-[#14b02a]">Advanced Stock Query</a></li>
                     </ul>
                 </li>
             </ul>
@@ -84,9 +84,9 @@
                 <button class="w-full text-left hover:text-[#14b02a]" onclick="toggleDropdown('mobile-collection')">Our Collection</button>
                 <ul id="mobile-collection" class="hidden pl-4">
                     <li><a href="/about-our-collection" class="block px-4 py-2 hover:bg-[#14b02a] <?php echo is_page('about-our-collection') ? 'border-b-4 border-[#14b02a] font-semibold' : ''; ?>">About Our Collection</a></li>
-                    <li><a href="https://www.maizegdb.org/stock_catalog" class="block px-4 py-2 hover:bg-[#14b02a]">Stock Catalog</a></li>
-                    <li><a href="https://www.maizegdb.org/data_center/stock#simple_search" class="block px-4 py-2 hover:bg-[#14b02a]">Simple Stock Query</a></li>
-                    <li><a href="https://www.maizegdb.org/data_center/stock#advanced_search" class="block px-4 py-2 hover:bg-[#14b02a]">Advanced Stock Query</a></li>
+                    <li><a href="https://www.maizegdb.org/stock_catalog" target="_blank" class="block px-4 py-2 hover:bg-[#14b02a]">Stock Catalog</a></li>
+                    <li><a href="https://www.maizegdb.org/data_center/stock#simple_search" target="_blank" class="block px-4 py-2 hover:bg-[#14b02a]">Simple Stock Query</a></li>
+                    <li><a href="https://www.maizegdb.org/data_center/stock#advanced_search" target="_blank" class="block px-4 py-2 hover:bg-[#14b02a]">Advanced Stock Query</a></li>
                 </ul>
             </li>
         </ul>

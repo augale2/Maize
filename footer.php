@@ -6,37 +6,33 @@
 <footer class="bg-white border-t-4 mt-5 border-[#14b02a] py-8 text-gray-600">
   <div class="max-w-7xl mx-auto px-6">
     <!-- Footer Content Grid -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-      <!-- Column 1: Another column -->
-      <div>
-        <h3 class="text-2xl font-semibold mb-2">Title</h3>
-        <p class="text-base">Something &amp; Something</p>
-        <p class="text-base">Something Something Something</p>
-        <p class="text-base">Something Something Something</p>
-      </div>
+    <div class="grid grid-cols-[2fr_1fr] gap-6">
       <!-- Column 2: Contact -->
       <div>
-        <h3 class="text-2xl font-semibold mb-2">Contact</h3>
+        <h3 class="text-2xl text-gray-800 font-semibold pb-2">Maize Genetics Cooperation • Stock Center</h3>
+		<h2 class="text-base">
+			<a href="https://www.usda.gov" target="_blank" class="text-[#14b02a] text-base underline">USDA</a>/
+			<a href="https://www.ars.usda.gov" target="_blank" class="text-[#14b02a] text-base underline">ARS</a>/
+			<a href="https://www.ars.usda.gov/midwest-area/" target="_blank" class="text-[#14b02a] text-base underline">MWA</a>/
+			<a href="https://www.ars.usda.gov/midwest-area/urbana-il/urbana-il-location-listing/" target="_blank" class="text-[#14b02a] text-base underline">Urbana</a> - 
+			<a href="https://www.ars.usda.gov/midwest-area/urbana-il/soybeanmaize-germplasm-pathology-and-genetics-research/" target="_blank" class="text-[#14b02a] text-base underline">Soybean/Maize Germplasm, Pathology & Genetics Research Unit</a></h2>
+		<h2 class="text-base">
+			<a href="https://illinois.edu" target="_blank" class="text-[#14b02a] text-base underline">University of Illinois at Urbana/Champaign</a> -
+			<a href="https://cropsciences.illinois.edu" target="_blank" class="text-[#14b02a] text-base underline">Department of Crop Sciences</a>
+			</h2>
         <p class="text-base">
           Email: 
           <a href="mailto:maize@uiuc.edu" class="text-[#14b02a] hover:underline">
             maize@uiuc.edu
           </a>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente molestias, officia eaque 
         </p>
-        <!-- <p class="text-sm">Phone: (123) 456-7890</p> -->
-      </div>
-      <!-- Column 3: Some Name -->
-      <div>
-        <h3 class="text-2xl font-semibold mb-2">Hello</h3>
-        <p class="text-base"><strong>Example example example</strong><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente molestias, officia eaque </p>
-        <p class="text-base"><strong>Hello</strong><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente molestias, officia eaque </p>
-        <p class="text-base"><strong>Hello</strong><br>Loren</p>
-        <p class="text-base"><strong>Hello</strong><br>lorem epsum</p>
+		
+        <p class="text-base">
+			Phone: (217) 333 6631</p>
       </div>
       <!-- Column 4: Location -->
       <div>
-        <h3 class="text-2xl font-semibold mb-2">Location</h3>
+        <h3 class="text-2xl text-gray-800 font-semibold mb-2">Location</h3>
         <p class="text-base">S 123 Turner Hall</p>
         <p class="text-base">1102 South Goodwin Avenue</p>
         <p class="text-base">Urbana, IL 61801-4730</p>
@@ -55,7 +51,7 @@
     </div>
     <!-- Footer Bottom -->
     <div class="mt-8 text-center border-t pt-4">
-      <p class="text-base">&copy; <?php echo date('Y'); ?> Your Company Name. All rights reserved.</p>
+      <p class="text-base">&copy; <?php echo date('Y'); ?> Maize Genetics Cooperation &#8226 Stock Center. All rights reserved.</p>
     </div>
   </div>
   <?php wp_footer(); ?>

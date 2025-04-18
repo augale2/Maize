@@ -4,18 +4,30 @@ get_header();
 ?>
 
 <main>
-    <section
+    <!-- <section
         class="relative w-full h-64 bg-center bg-cover bg-no-repeat flex items-center justify-center mb-6 rounded-lg"
         style="background-image: url('https://maizecoopsc.web.illinois.edu/wp-content/uploads/2025/04/Kernel_Banner_page-0001-scaled.jpg');"
     >
-        <!-- Optional semi-transparent overlay -->
-        <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+    
 
-        <!-- Text overlay -->
-        <div class="relative z-10 text-center text-white">
-            <h1 class="text-4xl font-bold">Maize COOP Information</h1>
+    <div class="relative z-10 text-center">
+        <div class="inline-block bg-black bg-opacity-40 px-6 py-4 rounded">
+            <h1 class="text-4xl font-bold text-white">Maize COOP Information</h1>
         </div>
-    </section>
+    </div>
+    </section> -->
+    <section
+  class="relative w-full h-64 bg-center bg-cover bg-no-repeat flex items-center justify-center mb-6 rounded-lg"
+  style="background-image: url('https://maizecoopsc.web.illinois.edu/wp-content/uploads/2025/04/Kernel_Banner_page-0001-scaled.jpg');"
+>
+  <!-- Full-width text overlay container -->
+  <div class="relative z-10 w-full">
+    <div class="bg-black bg-opacity-40 w-full py-4">
+      <h1 class="text-4xl font-bold text-center text-white">Maize COOP Information</h1>
+    </div>
+  </div>
+</section>
+
     <div class="space-y-12 mx-auto p-4 sm:p-6 lg:p-8 max-w-7xl">
         <section class="space-y-6">
             <!-- <h1 class="text-4xl text-gray-800 font-bold">Maize COOP Information</h1> -->
