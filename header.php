@@ -14,22 +14,30 @@
     <div class="max-w-full px-6 flex justify-between items-center py-6 md:py-8">
         <!-- Logo Section -->
         <div class="flex items-center">
-            <img src="https://maizecoopsc.web.illinois.edu/wp-content/uploads/2025/03/MaizeCOOPIcon_Background_Final.png" alt="logo" class="h-12 md:h-16 w-auto">
+            <a href="/">
+                <img 
+                    src="https://maizecoopsc.web.illinois.edu/wp-content/uploads/2025/03/MaizeCOOPIcon_Background_Final.png" 
+                    alt="logo" 
+                    class="h-12 md:h-16 w-auto cursor-pointer"
+                />
+            </a>
         </div>
+
 
         <!-- Desktop Navigation Menu -->
         <nav class="hidden md:block">
-            <form id="stock-search-form" class="flex-1 max-w-sm mx-6">
+            <form id="stock-search-form" action="<?php echo esc_url( home_url('/search-results/') ); ?>" method="get" class="flex-1 max-w-sm mx-6">
                 <div class="relative">
                     <input
                         type="text"
                         id="search-input"
+                        name="stock_name"
                         placeholder="Search stock…"
                         class="w-full border border-gray-300 rounded-full pl-4 pr-12 py-2 focus:outline-none focus:ring-2 focus:ring-[#14b02a]"
                     />
                     <button 
                         id="search-btn"
-                        type="button"
+                        type="submit"
                         class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-[#14b02a] hover:bg-green-700 text-white rounded-full p-2"
                     >
                     🔍

@@ -7,7 +7,7 @@ $search_name = isset($_GET['stock_name']) ? sanitize_text_field($_GET['stock_nam
 
 <main>
     <!-- top of home.php, just inside <main>… -->
-    <div id="search-results" class="max-w-7xl mx-auto p-6 bg-white shadow-md rounded-md mb-8"></div>
+    <!-- <div id="search-results" class="max-w-7xl mx-auto p-6 bg-white shadow-md rounded-md mb-8"></div> -->
 
 
     <!-- Image Container with Overlay -->
