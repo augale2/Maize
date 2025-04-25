@@ -21,7 +21,7 @@ $search_name = isset($_GET['stock_name']) ? sanitize_text_field($_GET['stock_nam
                          class="w-[200%] h-auto object-cover -translate-x-1/4">
                 </div>
                 <div class="w-1/3 overflow-hidden relative">
-                    <img src="https://maizecoopsc.web.illinois.edu/wp-content/uploads/2025/02/107B_Kernels_P1rr_1.jpg"
+                    <img src="https://maizecoopsc.web.illinois.edu/wp-content/uploads/2025/02/X13L_kernels_R1mb_1.jpg"
                          alt="Right Image"
                          class="w-[200%] h-auto object-cover translate-x-1/4">
                 </div>
