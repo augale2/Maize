@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php wp_title('|', true, 'right'); ?></title>
     <?php wp_head(); ?>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body <?php body_class(); ?>>
@@ -18,6 +19,24 @@
 
         <!-- Desktop Navigation Menu -->
         <nav class="hidden md:block">
+            <form id="stock-search-form" class="flex-1 max-w-sm mx-6">
+                <div class="relative">
+                    <input
+                        type="text"
+                        id="search-input"
+                        placeholder="Search stock…"
+                        class="w-full border border-gray-300 rounded-full pl-4 pr-12 py-2 focus:outline-none focus:ring-2 focus:ring-[#14b02a]"
+                    />
+                    <button 
+                        id="search-btn"
+                        type="button"
+                        class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-[#14b02a] hover:bg-green-700 text-white rounded-full p-2"
+                    >
+                    🔍
+                    </button>
+                </div>
+            </form>
+
             <ul class="flex space-x-8 text-gray-800 font-medium">
                 <li class="relative group">
                     <a href="/" class="pb-2 text-gray-900 group-hover:text-[#14b02a] relative <?php echo is_front_page() ? 'border-b-4 border-[#14b02a] font-semibold' : ''; ?>">
@@ -102,6 +121,59 @@
         document.getElementById(id).classList.toggle("hidden");
     }
 </script>
+
+<script>
+  jQuery(document).ready(function($){
+    $('#search-btn').on('click', function(){
+      const name = $('#search-input').val().trim();
+      if (!name) return;
+      $('#search-results').html('Loading…');
+
+      $.ajax({
+        method: 'POST',
+        url: '<?php echo esc_url_raw( rest_url('my/v1/stock-search') ); ?>',
+        contentType: 'application/json',
+        dataType: 'json', 
+        data: JSON.stringify({ curation_lvl: 0, name })
+      })
+      .done(function(data) {
+        if (!data.length) {
+          $('#search-results').html('<p>No results found for “' + name + '”.</p>');
+          return;
+        }
+        console.log('API response:', data);
+        let html = '<ul class="list-disc pl-5">';
+        data.forEach(item => {
+          html += `
+            <li>
+              <a 
+                href="https://maizegdb.org/datacenter/stock/${item.name}" 
+                target="_blank"
+                class="text-[#14b02a] hover:underline"
+              >
+                ${item.name}
+              </a>
+            </li>`;
+        });
+        html += '</ul>';
+        $('#search-results').html(html);
+      })
+      .fail(function() {
+        $('#search-results').html('<p class="text-red-500">Error fetching data.</p>');
+      });
+    });
+
+    $('#search-input').on('keypress', e => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        $('#search-btn').click();
+      }
+    });
+  });
+</script>
+</body>
+</html>
+
 
 </body>
 </html>
